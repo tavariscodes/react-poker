@@ -1,0 +1,9 @@
+.table-container {
+    display: flex;
+    width: 500px;
+    height: 20rem;
+    background-color: white;
+    border-radius: 10rem;
+    border-color: yellow;
+    border-width: 20px;
+}
