@@ -1,0 +1,53 @@
+
+.card {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    width: 105px;
+    height: 125px;
+    border-radius: 4px;
+    margin: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ 
+.card.red {
+    color: red;
+}
+
+.card-topleft {
+    position: absolute;
+    top: 0.5em;
+    left: 0.75em;
+}
+
+.card-bottomright {
+    position: absolute;
+    bottom: 0.5em;
+    right: 0.75em;
+    transform: rotate(180deg);
+}
+
+.card-corner-rank, .card-corner-suit {
+    text-align: center;
+    transform: translate(-50%, 0);
+}
+
+.diamond {
+    background-image: url('../assets/suits/diamond.svg');
+}
+
+.club {
+    background-image: url('../assets/suits/club.svg');
+}
+
+.heart {
+    background-image: url('../assets/suits/heart.svg');
+}
+
+.spade {
+    background-image: url('../assets/suits/spade.svg');
+}
