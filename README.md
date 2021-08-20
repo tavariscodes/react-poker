@@ -14,5 +14,5 @@ Assigned an end of module project for a software engineering bootcamp with a 1 w
     - Fetch
     - Mongoose 
     - Express???
-## Wireframes
-[](./wireframe.png)
+## Wireframe:
+![](./wireframe.png)
